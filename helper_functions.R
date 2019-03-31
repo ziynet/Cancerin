@@ -5,6 +5,7 @@ library(parallel)
 library(HDCI)
 library(glmnet)
 library(bnlearn)
+library(WGCNA)
 
 # get regression df for each RNA with cna, methyl, TF and miRNA included as candidate regulators
 getDF = function(regression.data, RNA, include.lncRNA = F){
